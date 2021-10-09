@@ -1,0 +1,43 @@
+.input-fields {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  margin-top: 20px;
+  background-color: rgb(255, 122, 122);
+  padding: 10px;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16pt;
+  margin-bottom: 5px;
+}
+
+.author-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16pt;
+  margin-top: 5px;
+}
+
+.add-book-btn {
+  width: 100px;
+  margin: 0 auto;
+  font-size: 14pt;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: brown;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-book-btn :hover {
+  background-color: crimson;
+}

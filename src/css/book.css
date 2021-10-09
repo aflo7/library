@@ -1,0 +1,38 @@
+.title-output {
+  width: 45%;
+}
+
+.author-output {
+  width: 45%;
+}
+
+.book {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: navy;
+  color: white;
+  margin: 0 auto;
+  width: 420px;
+  margin-top: 10px;
+  font-size: 12pt;
+  
+}
+
+.delete-btn {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 20px;
+  
+}
+
+.delete-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 10%;
+  background-color: transparent;
+}

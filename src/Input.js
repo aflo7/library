@@ -73,7 +73,7 @@ class Input extends React.Component {
     return (
       <div className="input-fields">
         <div className="title-wrapper">
-          <div>Book Title:</div>
+          <div className="book-txt">Book Title:</div>
           <input
             value={this.state.title}
             className="title-input"
@@ -82,7 +82,7 @@ class Input extends React.Component {
         </div>
 
         <div className="author-wrapper">
-          <div>Author:</div>
+          <div className="author-txt">Author:</div>
           <input
             value={this.state.author}
             className="author-input"

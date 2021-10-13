@@ -1,10 +1,13 @@
+
+
 .input-fields {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  width: 440px;
+  width: 85%;
+  max-width: 500px;
   margin-top: 20px;
-  background-color: rgb(255, 122, 122);
+  background-color: lightskyblue;
   padding: 10px;
 }
 
@@ -30,7 +33,7 @@
   font-size: 14pt;
   margin-top: 40px;
   margin-bottom: 10px;
-  background-color: brown;
+  background-color: gray;
   border: none;
   color: white;
   padding: 5px;
@@ -38,6 +41,34 @@
   cursor: pointer;
 }
 
-.add-book-btn :hover {
+.add-book-btn:hover {
   background-color: crimson;
+}
+
+.author-txt {
+  font-size: 16pt;
+
+}
+
+.book-txt {
+  font-size: 16pt;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .input-fields {
+    width: 85%;
+  }
+
+  .author-txt {
+    font-size: 14pt;
+  
+  }
+  
+  .book-txt {
+    font-size: 14pt;
+  }
+
+  .add-book-btn {
+    font-size: 12pt;
+  }
 }

@@ -1,1 +1,1 @@
-Created using React and the Local Storage API (save data indefinitely in users browser)
+Created using React and the Local Storage API (save data indefinitely in users browser).

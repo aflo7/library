@@ -1,7 +1,7 @@
 {
   "name": "library",
   "version": "0.1.0",
-  "homepage": "https://github.com/aflo7/library",
+  "homepage": "https://aflo7.github.io/library/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [

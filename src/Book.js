@@ -2,8 +2,8 @@ import React from "react"
 import "./css/book.css"
 
 class Book extends React.Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {}
 
     this.clickMe = this.clickMe.bind(this)
@@ -24,8 +24,9 @@ class Book extends React.Component {
         </div>
 
         <div className="delete-btn-wrapper">
+          <div className="edit-btn">Edit</div>
           <div
-            className={"delete-btn " + this.props.uniqueID}
+            className={"delete-btn"}
             onClick={() => this.clickMe(this.props.uniqueID)}
           >
             X
